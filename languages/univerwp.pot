@@ -1,0 +1,348 @@
+# Copyright (C) 2024 7bar
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Univerwp 0.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/univerwp\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-22T22:06:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: univerwp\n"
+
+#. Plugin Name of the plugin
+msgid "Univerwp"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://7bar.github.io/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Univerwp is a plugin, as a framework, that aims to extend WordPress in various areas: security, performance and additional features. It is modular and has a central logging utility."
+msgstr ""
+
+#. Author of the plugin
+msgid "7bar"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:71
+#: includes/admin/common/univerwp_wpch.class.php:74
+msgid "creating temporary _wp-config.php before to create our slot"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:79
+msgid "recover _wp-config.php to wp-config.php please check"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:82
+msgid "recover _wp-config.php to wp-config.php"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:87
+#: includes/admin/common/univerwp_wpch.class.php:90
+msgid "removing temporary _wp-config.php after creating uwp slot"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:111
+msgid "wp-config.php is not writable"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:114
+msgid "wp-config.php is writable"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:119
+#: includes/admin/common/univerwp_wpch.class.php:124
+msgid "writing uwp+/- section in wp-config.php"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:174
+msgid "problem to update the wp-config.php"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:180
+msgid "correctly update the wp-config.php"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:199
+msgid "uwp+/- section not found in wp-config.php"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:203
+msgid "uwp+/- section found in wp-config.php no need to add them"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:237
+msgid "key already present in wp-config.php no need to recreate them"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:263
+msgid "problem to update the wp-config.php after removing of uwp+/- section"
+msgstr ""
+
+#: includes/admin/common/univerwp_wpch.class.php:269
+msgid "correctly update wp-config.php after removing of uwp+/- section"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:69
+msgid "Limit revision to"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:70
+msgid "Limit Revision"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:72
+msgid "By default WordPress does not limit the number of revision for your post. This can increase the space of your database very quick (and then slowdown the query over it). We suggest to limit it."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:73
+msgid "You have already some custom revision set on your wp-config.php file. Please remove it, if you want to manage with UniverWP."
+msgstr ""
+
+#. translators: the parameter will be the number of revisions. int
+#: includes/admin/modules/univerwp_rbc.class.php:75
+msgid "<b>wordpress revision limit enabled</b>. The actual limit revision used is: <b><span id=\"revision_actual_value\">%s</span></b>"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:77
+msgid "Update Revision Limit"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:78
+msgid "Reset Revision Limit"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:86
+msgid "Disable Wordpress Cron"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:88
+msgid "By default Wordpress has an in bundle cron system that fires up, every times a user load a page. This could become a problem very quick if the traffic of your website increase. Generally speaking is far better to relay to the system cron, that nowadays every decent hosting provider give you for free. Generally fires up a cronjob every 30 minutes is enough for most."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:89
+msgid "You have already disabled Wordpress default cron on wp-config.php file. Please remove it, if you want to manage it with UniverWP."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:90
+msgid "<b>WordPress Cron disabled</b>. Please be sure to insert on your system cron one of the following line (depeding on what is available on your hosting)."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:101
+msgid "Disable WordPress Cron"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:102
+msgid "Reset WordPress Cron"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:110
+msgid "Disable WordPress Automatic Updates"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:112
+msgid "Keep your website (all the parts of it: core WordPress, all the plugins, the themes and the OS parts) updated, is vitally important. But, before every upgrades, is far better to make a snapshot/backup of your website (both files and database dump). To do that, is better disable the automatic updates of WordPress, in order to allow you to decide when upgrade your website."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:113
+msgid "You have already disabled Wordpress automatic update on wp-config.php file. Please remove it, if you want to manage with UniverWP."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:114
+msgid "<b>WordPress Automatic Updates disabled</b>. Please be sure to manually update your WordPress regulary, and before to do that make a complete backup of it."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:116
+msgid "Disable Automatic Update"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:117
+msgid "Reset Automatic Update"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:125
+msgid "Disable WordPress Theme File Editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:127
+msgid "This flag allow you to disable the useless Theme File editor present on the default Wordpress."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:128
+msgid "You have already disabled Wordpress Theme File editor on wp-config.php file. Please remove it, if you want to manage with UniverWP."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:129
+msgid "<b>WordPress Theme File Editor disabled</b>"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:131
+msgid "Disable Theme File editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:132
+msgid "Reset Theme File editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:140
+msgid "Disable WordPress Plugin File editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:142
+msgid "This flag allow you to disable the useless Plugin File editor present on the default Wordpress."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:143
+msgid "You have already disabled Wordpress Plugin File editor on wp-config.php file. Please remove it, if you want to manage with UniverWP."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:144
+msgid "<b>WordPress Plugin File Editor disabled</b>"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:146
+msgid "Disable Plugin File editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:147
+msgid "Reset Plugin File editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:155
+msgid "Disable WordPress Gutemberg Editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:157
+msgid "This flag allow you to disable the Gutemberg Editor."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:159
+msgid "<b>WordPress Gutemberg Editor is disabled</b>"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:161
+msgid "Disable Gutemberg Editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:162
+msgid "Reset Gutemberg Editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:170
+msgid "Disable WordPress Widget Block Editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:172
+msgid "This flag allow you to disable the Widget Block Editor."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:174
+msgid "<b>WordPress Widget Block Editor is disabled</b>"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:176
+msgid "Disable Widget Block Editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:177
+msgid "Reset Widget Block Editor"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:227
+msgid "Remove Bloated Configurations"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:228
+msgid "Bloated Config"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:244
+msgid "UniverWP Remove Bloated Configuration"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:244
+msgid "Here we suggest some configuration to make your Wordpress faster"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:297
+msgid "Invalid request, please retry. [rbc_e0]"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:304
+msgid "Invalid request, please retry. [rbc_e1]"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:309
+msgid "Invalid request, please retry. [rbc_e2]"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:314
+msgid "Invalid request, please retry. [rbc_e3]"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:319
+msgid "Invalid request, please retry. [rbc_e4]"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:330
+msgid "Failed to remove the config from uwp_options table"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:338
+msgid "Failed to write the config from uwp_options table"
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:344
+msgid "Invalid value, please retry."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:350
+msgid "Config correctly updated."
+msgstr ""
+
+#: includes/admin/modules/univerwp_rbc.class.php:352
+msgid "Problems updating config file. Please check the permission."
+msgstr ""
+
+#: includes/admin/univerwp.class.php:120
+#: includes/admin/univerwp.class.php:243
+msgid "Universal Extension"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:178
+msgid "univerwp_db_version option added correctly"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:183
+msgid "univerwp sections already present on config, no need to do more"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:185
+msgid "univerwp problems creating uwp sections on wp-config file. please check"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:190
+msgid "univerwp succesfully installed correctly"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:253
+msgid "Universal Extension Dashboard"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:254
+msgid "Dashboard"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:271
+msgid "UniverWP - Universal Extension"
+msgstr ""
+
+#: includes/admin/univerwp.class.php:272
+msgid "This is a set of, hopefully, usefull, extension for Wordpress and Woocommerce. We strive to keep it as light as possible. Without any not necessary, code, query and assets. We hope that you like it."
+msgstr ""

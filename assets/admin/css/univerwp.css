@@ -1,0 +1,21 @@
+.uwp_hide{
+    display: none !important;
+}
+.uwp_notice{
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-color: rgb(0, 165, 49);
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 1px 12px;
+    margin: 5px 0 15px;
+}
+.uwp_error {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-color: rgb(165, 0, 0);
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    padding: 1px 12px;
+    margin: 5px 0 15px;
+}
